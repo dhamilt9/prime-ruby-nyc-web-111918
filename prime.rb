@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(int)
   for i in 0..int do
-    if int%i==0 || i<1
+    if int%i==0
       return false
     end
   end
